@@ -1,13 +1,8 @@
 #!/usr/bin/env python3
-"""floor functions
-"""
+""" contains floor function"""
 import math
 
+
 def floor(n: float) -> int:
-    """Return floor of n float number
-    Args:
-        n (float): number
-    Returns:
-        int: math.floor(n)
-    """
+    """returns floor of float"""
     return math.floor(n)
