@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """contains async_generator coroutine"""
 import asyncio
