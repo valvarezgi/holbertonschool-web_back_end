@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python3
 """
 Session database authentication module for API
