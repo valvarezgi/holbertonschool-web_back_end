@@ -72,4 +72,4 @@ What you should learn from this project:
 
 ## Author
 
-**Joshua Martinez** - [valvarezgi](https://github.com/valvarezgi)
+**Valeria Alvarez Giraldo** - [valvarezgi](https://github.com/valvarezgi)
