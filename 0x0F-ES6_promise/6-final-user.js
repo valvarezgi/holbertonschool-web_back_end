@@ -1,5 +1,5 @@
-import signUpUser from "./4-user-promise";
-import uploadPhoto from "./5-photo-reject";
+import signUpUser from './4-user-promise';
+import uploadPhoto from './5-photo-reject';
 
 export default function handleProfileSignup(firstName, lastName, fileName) {
   return Promise.allSettled([
@@ -8,7 +8,7 @@ export default function handleProfileSignup(firstName, lastName, fileName) {
   ]).then((vals) => {
     const resArr = [];
     vals.forEach((val) => {
-      if (val.status === "fulfilled") {
+      if (val.status === 'fulfilled') {
         resArr.push({ status: val.status, value: val.value });
       } else {
         resArr.push({
